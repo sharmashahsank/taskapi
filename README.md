@@ -7,7 +7,7 @@ This is a example application that created task and notes against the task and u
 - `api/addTask.php`
 
 
-## API End Points Payloads Data
+## API End Points
 
 
 - `api/register.php` - POST
