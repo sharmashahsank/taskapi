@@ -10,7 +10,7 @@ This is a example application that created task and notes against the task and u
 ## API End Points Payloads Data
 
 
-- `api/register.php`
+- `api/register.php` - POST
 
 -- Headers 
 Content-Type : application/json
@@ -24,7 +24,7 @@ Content-Type : application/json
     "password": "123456789"
 }
 
-- `api/login.php`
+- `api/login.php` - POST
 
 -- Headers 
 Content-Type : application/json
@@ -37,7 +37,7 @@ Content-Type : application/json
 }
 
 
-- `api/addTask.php`
+- `api/addTask.php` - POST
 
 -- Headers 
 Content-Type : application/json
@@ -74,4 +74,18 @@ Authorization : Bearer <JWT_Token>
     ]
 }
 
+- `api/taskList.php` - GET
+
+-- Headers 
+Content-Type : application/json
+Authorization : Bearer <JWT_Token>
+
+
+
 ## How to Run This App
+
+- clone the application from git repo
+- Import database sql file
+- configure database in config.php
+- run "composer update" on the root of directory
+- Run end points as mentioned above.
